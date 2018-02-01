@@ -1,0 +1,19 @@
+.playerOneTrack{
+  background: #b3b3b3;
+  width:100%;
+}
+.playerTwoTrack{
+  background: #b3b3b3;
+  width:100%;
+}
+
+.playerOne{
+  height:30px;
+  width:30px;
+  background:red;
+}
+.playerTwo{
+  height: 30px;
+  width:30px;
+  background:blue;
+}
