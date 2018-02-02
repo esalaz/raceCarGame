@@ -1,19 +1,34 @@
-.playerOneTrack{
+.track{
   background: #b3b3b3;
   width:100%;
+  height:100px;
 }
-.playerTwoTrack{
-  background: #b3b3b3;
-  width:100%;
-}
-
-.playerOne{
-  height:30px;
-  width:30px;
+#playerOne{
+  height:100%;
+  width: 100px;
   background:red;
+  position: relative;
+  -webkit-animation-name: example;  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3s;  /* Safari 4.0 - 8.0 */
+  -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 3000s;
+  animation-fill-mode: forwards;
 }
-.playerTwo{
-  height: 30px;
-  width:30px;
+#playerTwo{
+  height: 100%;
+  width:100px;
   background:blue;
+  position: relative;
+  -webkit-animation-name: example;  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3s;  /* Safari 4.0 - 8.0 */
+  -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 3000s;
+  animation-fill-mode: forwards;
+
+}
+@keyframes example {
+    from {left: 0%;}
+    to {left: 100%;}
 }
